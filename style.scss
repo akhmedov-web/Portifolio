@@ -51,7 +51,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     .layer {
         height: 100%;
         width: 100%;
@@ -59,7 +58,6 @@
         justify-content: center;
         align-items: center;
         background-color: rgba(12, 29, 29, 0.593);
-
         .sidebar {
             width: 40%;
             height: 100%;
@@ -68,7 +66,7 @@
             flex-direction: column;
             padding-left: 5rem;
             border-left: rgba(0, 128, 128, 0.700) 5px solid;
-
+            animation: part 2s ease-in 0s 1;
             .avatar {
                 height: 180px;
                 width: 180px;
