@@ -23,7 +23,7 @@
   }
 }
 .part_name {
-  height: 60px;
+  height: 70px;
   width: 100%;
   display: flex;
   justify-content: start;
@@ -317,14 +317,14 @@
   font-size: 20px;
 }
 .container .layer .main .portifolio {
-  height: 105vh;
+  height: 140vh;
   width: 100%;
   padding: 0px 1rem;
   -webkit-animation: part 3s ease-in 0s 1;
           animation: part 3s ease-in 0s 1;
 }
 .container .layer .main .portifolio .portifolio_body {
-  height: 86%;
+  height: 90%;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -350,21 +350,27 @@
   background-color: rgba(0, 0, 0, 0.331);
 }
 .container .layer .main .portifolio .portifolio_body .portifolio_image-1 {
-  background-image: url(./images/portifolio1.jpg);
+  background-image: url(./images/portifolio8.jpg);
 }
 .container .layer .main .portifolio .portifolio_body .portifolio_image-2 {
-  background-image: url(./images/portifolio2.jpg);
+  background-image: url(./images/portifolio7.jpg);
 }
 .container .layer .main .portifolio .portifolio_body .portifolio_image-3 {
-  background-image: url(./images/portifolio3.jpg);
+  background-image: url(./images/portifolio1.jpg);
 }
 .container .layer .main .portifolio .portifolio_body .portifolio_image-4 {
-  background-image: url(./images/portifolio4.jpg);
+  background-image: url(./images/portifolio2.jpg);
 }
 .container .layer .main .portifolio .portifolio_body .portifolio_image-5 {
-  background-image: url(./images/portifolio5.jpg);
+  background-image: url(./images/portifolio3.jpg);
 }
 .container .layer .main .portifolio .portifolio_body .portifolio_image-6 {
+  background-image: url(./images/portifolio4.jpg);
+}
+.container .layer .main .portifolio .portifolio_body .portifolio_image-7 {
+  background-image: url(./images/portifolio5.jpg);
+}
+.container .layer .main .portifolio .portifolio_body .portifolio_image-8 {
   background-image: url(./images/portifolio6.jpg);
 }
 .container .layer .main .contact {
