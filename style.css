@@ -159,7 +159,7 @@
   background-color: rgba(255, 255, 255, 0.577);
 }
 .container .layer .main .about {
-  height: 45vh;
+  height: 40vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -188,11 +188,11 @@
   color: cadetblue;
   margin-right: 5px;
 }
-.container .layer .main .about .information_wrapper .information span {
+.container .layer .main .about .information_wrapper .information span, .container .layer .main .about .information_wrapper .information a {
   color: rgba(255, 255, 255, 0.801);
 }
 .container .layer .main .statistics {
-  height: 32vh;
+  height: 28vh;
   width: 100%;
   padding: 0px 1rem;
   -webkit-animation: part 1.5s ease-in 0s 1;
@@ -240,7 +240,7 @@
   color: #cfa254;
 }
 .container .layer .main .skills {
-  height: 45vh;
+  height: 35vh;
   width: 100%;
   padding: 0px 1rem;
   -webkit-animation: part 2s ease-in 0s 1;
@@ -272,7 +272,7 @@
   margin-top: 10px;
 }
 .container .layer .main .interests {
-  height: 35vh;
+  height: 30vh;
   width: 100%;
   padding: 0px 1rem;
   -webkit-animation: part 2.5s ease-in 0s 1;
@@ -317,7 +317,7 @@
   font-size: 20px;
 }
 .container .layer .main .portifolio {
-  height: 140vh;
+  height: 105vh;
   width: 100%;
   padding: 0px 1rem;
   -webkit-animation: part 3s ease-in 0s 1;
@@ -365,16 +365,16 @@
   background-image: url(./images/portifolio3.jpg);
 }
 .container .layer .main .portifolio .portifolio_body .portifolio_image-6 {
-  background-image: url(./images/portifolio4.jpg);
-}
-.container .layer .main .portifolio .portifolio_body .portifolio_image-7 {
   background-image: url(./images/portifolio5.jpg);
 }
+.container .layer .main .portifolio .portifolio_body .portifolio_image-7 {
+  background-image: url(./images/portifolio6.png);
+}
 .container .layer .main .portifolio .portifolio_body .portifolio_image-8 {
-  background-image: url(./images/portifolio6.jpg);
+  background-image: url(./images/portifolio4.jpg);
 }
 .container .layer .main .contact {
-  height: 40vh;
+  height: 35vh;
   width: 100%;
   padding: 0px 1rem;
   -webkit-animation: part 3.5s ease-in 0s 1;

@@ -51,6 +51,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     .layer {
         height: 100%;
         width: 100%;
@@ -58,6 +59,7 @@
         justify-content: center;
         align-items: center;
         background-color: rgba(12, 29, 29, 0.593);
+
         .sidebar {
             width: 40%;
             height: 100%;
@@ -67,6 +69,7 @@
             padding-left: 5rem;
             border-left: rgba(0, 128, 128, 0.700) 5px solid;
             animation: part 2s ease-in 0s 1;
+
             .avatar {
                 height: 180px;
                 width: 180px;
@@ -166,13 +169,12 @@
             }
 
             .about {
-                height: 45vh;
+                height: 40vh;
                 width: 100%;
                 display: flex;
                 flex-direction: column;
                 padding-left: 1rem;
                 animation: part 1s ease-in 0s 1;
-
                 h2 {
                     color: #fff;
                     margin: 1rem 1rem;
@@ -196,7 +198,7 @@
                             margin-right: 5px;
                         }
 
-                        span {
+                        span, a {
                             color: rgba(255, 255, 255, 0.801);
                         }
                     }
@@ -204,7 +206,7 @@
             }
 
             .statistics {
-                height: 32vh;
+                height: 28vh;
                 width: 100%;
                 padding: 0px 1rem;
                 animation: part 1.5s ease-in 0s 1;
@@ -256,7 +258,7 @@
             }
 
             .skills {
-                height: 45vh;
+                height: 35vh;
                 width: 100%;
                 padding: 0px 1rem;
                 animation: part 2s ease-in 0s 1;
@@ -291,7 +293,7 @@
             }
 
             .interests {
-                height: 35vh;
+                height: 30vh;
                 width: 100%;
                 padding: 0px 1rem;
                 animation: part 2.5s ease-in 0s 1;
@@ -339,7 +341,7 @@
             }
 
             .portifolio {
-                height: 140vh;
+                height: 105vh;
                 width: 100%;
                 padding: 0px 1rem;
                 animation: part 3s ease-in 0s 1;
@@ -372,6 +374,7 @@
                             }
                         }
                     }
+
                     .portifolio_image-1 {
                         background-image: url(./images/portifolio8.jpg);
                     }
@@ -393,21 +396,21 @@
                     }
 
                     .portifolio_image-6 {
-                        background-image: url(./images/portifolio4.jpg);
-                    }
-
-                    .portifolio_image-7 {
                         background-image: url(./images/portifolio5.jpg);
                     }
 
+                    .portifolio_image-7 {
+                        background-image: url(./images/portifolio6.png);
+                    }
+
                     .portifolio_image-8 {
-                        background-image: url(./images/portifolio6.jpg);
+                        background-image: url(./images/portifolio4.jpg);
                     }
                 }
             }
 
             .contact {
-                height: 40vh;
+                height: 35vh;
                 width: 100%;
                 padding: 0px 1rem;
                 animation: part 3.5s ease-in 0s 1;
@@ -535,7 +538,7 @@
                 padding: 0px 2rem;
                 border-left: rgba(0, 128, 128, 0.429) 0px solid;
 
-                .avatar {   
+                .avatar {
                     height: 200px;
                     width: 200px;
                     border-radius: 5px;
@@ -833,6 +836,7 @@
         }
     }
 }
+
 @media only screen and (max-width:992px) {
     .part_name {
         height: 60px;
@@ -890,7 +894,7 @@
                 padding: 0px 2rem;
                 border-left: rgba(0, 128, 128, 0.429) 0px solid;
 
-                .avatar {   
+                .avatar {
                     height: 200px;
                     width: 200px;
                     border-radius: 5px;
@@ -1187,6 +1191,7 @@
         }
     }
 }
+
 @media only screen and (max-width:768px) {
     .part_name {
         height: 60px;
@@ -1244,7 +1249,7 @@
                 padding: 0px 2rem;
                 border-left: rgba(0, 128, 128, 0.429) 0px solid;
 
-                .avatar {   
+                .avatar {
                     height: 200px;
                     width: 200px;
                     border-radius: 5px;
@@ -1541,6 +1546,7 @@
         }
     }
 }
+
 @media only screen and (max-width:480px) {
     .part_name {
         height: 60px;
@@ -1598,7 +1604,7 @@
                 padding: 0px 2rem;
                 border-left: rgba(0, 128, 128, 0.429) 0px solid;
 
-                .avatar {   
+                .avatar {
                     height: 200px;
                     width: 200px;
                     border-radius: 5px;
@@ -1895,6 +1901,3 @@
         }
     }
 }
-
-
-
