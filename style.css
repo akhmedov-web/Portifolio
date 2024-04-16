@@ -317,7 +317,7 @@
   font-size: 20px;
 }
 .container .layer .main .portifolio {
-  height: 105vh;
+  height: 130vh;
   width: 100%;
   padding: 0px 1rem;
   -webkit-animation: part 3s ease-in 0s 1;
@@ -350,28 +350,34 @@
   background-color: rgba(0, 0, 0, 0.331);
 }
 .container .layer .main .portifolio .portifolio_body .portifolio_image-1 {
-  background-image: url(./images/portifolio8.jpg);
+  background-image: url(./images/ciu.png);
 }
 .container .layer .main .portifolio .portifolio_body .portifolio_image-2 {
-  background-image: url(./images/portifolio7.jpg);
+  background-image: url(./images/wordpress.jpg);
 }
 .container .layer .main .portifolio .portifolio_body .portifolio_image-3 {
-  background-image: url(./images/portifolio1.jpg);
+  background-image: url(./images/swm.jpg);
 }
 .container .layer .main .portifolio .portifolio_body .portifolio_image-4 {
-  background-image: url(./images/portifolio2.jpg);
+  background-image: url(./images/cookme.jpg);
 }
 .container .layer .main .portifolio .portifolio_body .portifolio_image-5 {
-  background-image: url(./images/portifolio3.jpg);
+  background-image: url(./images/coffee.jpg);
 }
 .container .layer .main .portifolio .portifolio_body .portifolio_image-6 {
-  background-image: url(./images/portifolio5.jpg);
+  background-image: url(./images/bank.jpg);
 }
 .container .layer .main .portifolio .portifolio_body .portifolio_image-7 {
-  background-image: url(./images/portifolio6.png);
+  background-image: url(./images/shamchiroq.png);
 }
 .container .layer .main .portifolio .portifolio_body .portifolio_image-8 {
-  background-image: url(./images/portifolio4.jpg);
+  background-image: url(./images/weather.jpg);
+}
+.container .layer .main .portifolio .portifolio_body .portifolio_image-9 {
+  background-image: url(./images/portifolio.jpg);
+}
+.container .layer .main .portifolio .portifolio_body .portifolio_image-10 {
+  background-image: url(./images/yumlink.png);
 }
 .container .layer .main .contact {
   height: 35vh;
