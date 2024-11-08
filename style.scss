@@ -341,23 +341,19 @@
             }
 
             .portifolio {
-                height: 105vh;
                 width: 100%;
                 padding: 0px 1rem;
                 animation: part 3s ease-in 0s 1;
 
                 .portifolio_body {
-                    height: 90%;
                     width: 100%;
-                    display: flex;
-                    justify-content: space-around;
-                    flex-wrap: wrap;
-                    align-items: center;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 1rem;
 
                     .portifolio_card {
                         border: 5px solid #cfa254;
                         cursor: pointer;
-                        width: 48%;
                         height: 195px;
                         background-position: center;
                         background-size: 100%;
@@ -376,35 +372,43 @@
                     }
 
                     .portifolio_image-1 {
-                        background-image: url(./images/portifolio8.jpg);
+                        background-image: url(./images/edubilim.png);
                     }
 
                     .portifolio_image-2 {
-                        background-image: url(./images/portifolio7.jpg);
+                        background-image: url(./images/ciu.png);
                     }
 
                     .portifolio_image-3 {
-                        background-image: url(./images/portifolio1.jpg);
+                        background-image: url(./images/wordpress.jpg);
                     }
 
                     .portifolio_image-4 {
-                        background-image: url(./images/portifolio2.jpg);
+                        background-image: url(./images/shamchiroq.png);
                     }
 
                     .portifolio_image-5 {
-                        background-image: url(./images/portifolio3.jpg);
+                        background-image: url(./images/portifolio.jpg);
                     }
 
                     .portifolio_image-6 {
-                        background-image: url(./images/portifolio5.jpg);
+                        background-image: url(./images/yumlink.png);
                     }
 
                     .portifolio_image-7 {
-                        background-image: url(./images/portifolio6.png);
+                        background-image: url(./images/swm.jpg);
                     }
 
                     .portifolio_image-8 {
-                        background-image: url(./images/portifolio4.jpg);
+                        background-image: url(./images/coffee.jpg);
+                    }
+
+                    .portifolio_image-9 {
+                        background-image: url(./images/cookme.jpg);
+                    }
+
+                    .portifolio_image-10 {
+                        background-image: url(./images/bank.jpg);
                     }
                 }
             }
@@ -412,9 +416,8 @@
             .contact {
                 height: 35vh;
                 width: 100%;
-                padding: 0px 1rem;
+                padding: 0 1rem;
                 animation: part 3.5s ease-in 0s 1;
-                margin-bottom: 2rem;
 
                 .contact_body {
                     height: 86%;
